@@ -22,7 +22,7 @@ st.write("---")
 # Add a title to the app
 
 
-if selected == "Sales Analysis":
+if selected == "Sales":
     st.header("Sales Analysis")
     st.subheader("Table of contents")
     st.write("""
