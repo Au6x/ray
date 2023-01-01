@@ -6,6 +6,7 @@ def local_css(file_name):
 
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
+st.write("---")
 selected = option_menu(
   menu_title=None,
             options=["Sales Analysis","Segmentation","Employee Attrition"],
