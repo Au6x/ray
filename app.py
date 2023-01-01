@@ -15,7 +15,7 @@ selected = option_menu(
             default_index=0,
             orientation="horizontal",
         )
-
+st.write("---")
 
 
 # Add a title to the app
