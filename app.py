@@ -8,7 +8,7 @@ local_css("./style/style.css")
 
 selected = option_menu(
   menu_title=None,
-            options=["Sales Analysis","Customer Segmentation","Employee Attrition"],
+            options=["Sales Analysis","Segmentation","Employee Attrition"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
