@@ -5,7 +5,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 local_css("./style/style.css")
-
+st.title("Raymond Sekgobela")
 selected = option_menu(
   menu_title=None,
             options=["Sales Analysis","Segmentation","Employee Attrition"],
@@ -18,7 +18,7 @@ selected = option_menu(
 
 
 # Add a title to the app
-st.title("Raymond Sekgobela")
+
 
 if selected == "Sales Analysis":
     st.header("Sales Analysis")
