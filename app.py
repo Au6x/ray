@@ -15,7 +15,7 @@ with st.sidebar:
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
-            orientation="horizontal",
+            #orientation="horizontal",
         )
 #st.write("---")
 
