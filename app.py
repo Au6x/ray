@@ -8,6 +8,14 @@ local_css("./style/style.css")
 
 # Add a title to the app
 st.title("Sales Analysis")
+st.header("Table of contents")
+st.write("""
+1. Business Request & User Stories.
+2. Raw Data.
+3. Data Cleaning & Transformation (SQL).
+4. Data Model.
+5. Sales Management Dashboard(Live!)
+""")
 st.subheader("Summary")
 st.write("""
 The business requested an executive sales report for sales managers. User stories and acceptance criteria were created to guide the development of a Power BI dashboard that would provide sales managers with a dashboard overview of internet sales, allow sales representatives to view detailed Internet Sales data for customers and products, and compare sales data against budget.
