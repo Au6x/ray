@@ -10,11 +10,12 @@ local_css("./style/style.css")
 st.title("Sales Analysis")
 st.header("Table of contents")
 st.write("""
+0. Summary.
 1. Business Request & User Stories.
 2. Raw Data.
 3. Data Cleaning & Transformation (SQL).
 4. Data Model.
-5. Sales Management Dashboard(Live!)
+5. Sales Management Dashboard(Live!).
 """)
 st.subheader("Summary")
 st.write("""
