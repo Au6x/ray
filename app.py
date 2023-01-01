@@ -13,7 +13,7 @@ st.write("""
 The business requested an executive sales report for sales managers. User stories and acceptance criteria were created to guide the development of a Power BI dashboard that would provide sales managers with a dashboard overview of internet sales, allow sales representatives to view detailed Internet Sales data for customers and products, and compare sales data against budget.
 """)
 st.write("""
-To create the necessary data model for the dashboard, data was cleansed and transformed using SQL statements on tables from the AdventureWorksDW2019 database, including DimDate, DimCustomer, DimProduct, and FactInternetSales. The data model was then enhanced with an Excel data source containing sales budget data.
+To create the necessary data model for the dashboard, data was cleaned and transformed using SQL statements on tables from the database, including DimDate, DimCustomer, DimProduct, and FactInternetSales. The data model was then enhanced with an Excel data source containing sales budget data.
 """)
 
 # Create a function that displays a project image and description
