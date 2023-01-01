@@ -10,7 +10,7 @@ st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | B
 st.write("---")
 selected = option_menu(
   menu_title=None,
-            options=["Sales Analysis","Segmentation","Employee Attrition"],
+            options=["Sales","Segmentation","Attrition"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
@@ -66,12 +66,12 @@ if selected == "Sales Analysis":
         [ "Sales Manager", "A dashboard overview of internet sales", "Follow sales over time against budget", "A Power Bi dashboard with graphs and KPIs comparing against budget"]
     ])
 
-
+    st.write("---")
     st.header("2. Raw Data")
     show_project("sql.png", "Raw data in SQL.")
     show_project("ex.png", "This is the sales budget file provided in Excel format.")
 
-
+    st.write("---")
     # Add a title to the app
     st.title("3. Data Cleaning & Transformation (SQL)")
     st.write("""
@@ -241,7 +241,7 @@ if selected == "Sales Analysis":
     ORDER BY
       OrderDateKey ASC
     """)
-
+    st.write("---")
     st.header("4. Data Model")
     st.write("""
     Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
@@ -251,7 +251,7 @@ if selected == "Sales Analysis":
     # Show the third project
     #st.header("Project 3")
     show_project("pic.png", "This is the third project. It involves analyzing a large dataset using SQL and Python.")
-
+    st.write("---")
     st.header("5. Sales Management Dashboard")
     st.write("""
     The finished sales management dashboard with one page showing the sales overview, and the other pages focused on combining tables for necessary details and visualizations to show sales over time, per customers and per products.
