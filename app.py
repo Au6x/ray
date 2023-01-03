@@ -278,9 +278,9 @@ if selected == "Segmentation":
   """)
   st.subheader("0. About")
   st.write("""
-  The purpose of this customer segmentation project is to identify and group customers based on their transaction history in order to perform targeted marketing campaigns and determine the most valuable customers. This will be done by collecting data on customer transactions and ranking customers based on the recency, frequency, and monetary total of their transactions
+  - The purpose of this customer segmentation project is to identify and group customers based on their transaction history in order to perform targeted marketing campaigns and determine the most valuable customers. This will be done by collecting data on customer transactions and ranking customers based on the recency, frequency, and monetary total of their transactions.
   """)
-  st.write("Customers will then be grouped into segments based on their ranking, and the characteristics and behaviors of each segment will be analyzed to identify good and bad segments. The customers who have made the most valuable purchases will be identified as the most valuable customers. This information can be used to tailor marketing efforts and prioritize resources towards the most valuable customers in order to increase customer retention and sales.")
+  st.write("- Customers will then be grouped into segments based on their ranking, and the characteristics and behaviors of each segment will be analyzed to identify good and bad segments. The customers who have made the most valuable purchases will be identified as the most valuable customers. This information can be used to tailor marketing efforts and prioritize resources towards the most valuable customers in order to increase customer retention and sales.")
   st.subheader("1. Business Request")
   show_project("note.png", "Request from management.")
   st.subheader("2. Raw data")
