@@ -10,7 +10,7 @@ def show_project(image, description):
   st.markdown(description)
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
-st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
+st.success("Tools Used : Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
 #st.write("---")
 #with st.sidebar:
 selected = option_menu(
@@ -270,7 +270,7 @@ if selected == "Sales":
 
 if selected == "Segmentation":
   st.header("Customer Segmentation")
-  st.success("Excel | PowerPoint | Power Query")
+  st.success("Tools Used : Excel | PowerPoint | Power Query")
   #show_project("customer-segment.png","")
   st.subheader("Table of contents")
   st.write("""
