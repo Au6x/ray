@@ -287,7 +287,7 @@ if selected == "Segmentation":
   show_project("Raw Data2.png", "Raw data in excel format.")
   st.subheader("3. Data Transformation(Pivots)")
   show_project("Pivot table.png", "Used the pivot table to filter out the unimportant columns.")
-  show_project("Updated pivit.png", "Applied vlookup function on the pivot table using lookup table to conditionally assign the customers a segment. ")
+  show_project("Updated Pivit.png", "Applied vlookup function on the pivot table using lookup table to conditionally assign the customers a segment. ")
   st.subheader("4. Summary & Recommendations(PowerPoint)")
   st.write("""
   - The report identified five major segments of customers based on recency, frequency, and revenue. The top customers have made an average of 8 purchases, spending an average of USD 7,200 and have made a purchase within the last 10 days on average.
