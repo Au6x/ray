@@ -24,7 +24,9 @@ with st.sidebar:
 
 
 if selected == "Sales":
+    st.write("---")
     st.header("Sales Analysis")
+    st.write("---")
     st.subheader("Table of contents")
     st.write("""
     0. Summary.
