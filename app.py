@@ -6,7 +6,7 @@ def local_css(file_name):
 
 # Create a function that displays a project image and description
 def show_project(image, description):
-  st.image(image, width=700)
+  st.image(image, width=350)
   st.markdown(description)
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
@@ -30,7 +30,7 @@ selected = option_menu(
 if selected == "Sales":
     st.write("---")
     st.header("Sales Analysis")
-    st.image("data-analysis.png",width=700)
+    show_project("data-analysis.png","")
     st.write("---")
     st.subheader("Table of contents")
     st.write("""
@@ -269,7 +269,7 @@ if selected == "Sales":
 
 if selected == "Segmentation":
   st.header("Customer Segmentation")
-  st.image("customer-segment.png",width=700)
+  show_project("customer-segment.png","")
   st.subheader("Table of contents")
   st.write("""
   0. About
