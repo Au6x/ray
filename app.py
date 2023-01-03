@@ -12,14 +12,14 @@ local_css("./style/style.css")
 st.title("Raymond Sekgobela")
 st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
 #st.write("---")
-with st.sidebar:
+#with st.sidebar:
     selected = option_menu(
   menu_title=None,
             options=["Sales","Segmentation","Attrition"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
-            #orientation="horizontal",
+            orientation="horizontal",
         )
 #st.write("---")
 
