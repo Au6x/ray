@@ -30,7 +30,7 @@ selected = option_menu(
 if selected == "Sales":
     st.write("---")
     st.header("Sales Analysis")
-    show_project("1.jpg","Source : WebEngage")
+    show_project("data-analysis.png","")
     st.write("---")
     st.subheader("Table of contents")
     st.write("""
@@ -269,7 +269,7 @@ if selected == "Sales":
 
 if selected == "Segmentation":
   st.header("Customer Segmentation")
-  show_project("2.jpg","Source : PngTree")
+  show_project("customer-segment.png","")
   st.subheader("Table of contents")
   st.write("""
   0. About
