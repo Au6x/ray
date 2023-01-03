@@ -34,6 +34,7 @@ if selected == "Sales":
     4. Data Model.
     5. Sales Management Dashboard(Live!).
     """)
+    st.write("---")
     st.subheader("0. Summary")
     st.write("""
     The business requested an executive sales report for sales managers. User stories and acceptance criteria were created to guide the development of a Power BI dashboard that would provide sales managers with a dashboard overview of internet sales, allow sales representatives to view detailed Internet Sales data for customers and products, and compare sales data against budget.
@@ -50,7 +51,7 @@ if selected == "Sales":
     # Show the first project
     #st.header("Project 1")
     #show_project("project1.jpg", "This is the first project. It involves building a web application using Streamlit and Python.")
-
+st.write("---")
     # Add a title to the app
     st.header("1. Business Request & User Stories")
     st.write("The business requested that an executive sales report be created for sales managers. To fulfill this request and ensure that the project met all necessary acceptance criteria, the following user stories were defined based on the business's request.")
