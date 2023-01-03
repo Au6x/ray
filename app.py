@@ -30,7 +30,7 @@ selected = option_menu(
 if selected == "Sales":
     st.write("---")
     st.header("Sales Analysis")
-    st.image("data-analysis.png",width=700,height=300)
+    st.image("data-analysis.png",height=300)
     st.write("---")
     st.subheader("Table of contents")
     st.write("""
