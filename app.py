@@ -4,6 +4,10 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+# Create a function that displays a project image and description
+def show_project(image, description):
+  st.image(image, width=700)
+  st.markdown(description)
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
 st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
@@ -45,10 +49,7 @@ if selected == "Sales":
     To create the necessary data model for the dashboard, data was cleaned and transformed using SQL statements on tables from the database, including DimDate, DimCustomer, DimProduct, and FactInternetSales. The data model was then enhanced with an Excel data source containing sales budget data.
     """)
 
-    # Create a function that displays a project image and description
-    def show_project(image, description):
-        st.image(image, width=700)
-        st.markdown(description)
+    
 
     # Show the first project
     #st.header("Project 1")
@@ -265,8 +266,41 @@ if selected == "Sales":
         <iframe src='https://app.powerbi.com/view?r=eyJrIjoiMmMxMjU1ZDAtMDBhYy00ZTgyLTg1MWQtNzNlMGFlMjlmODc3IiwidCI6IjA5NmViYzNjLThhYmQtNDBhNi1iNGZmLTdjYmY0YTk2MmM5NSJ9&pageName=ReportSection' width='700' height='400'></iframe>
     """, unsafe_allow_html=True)
 
+if selected == "Segmentation":
+  st.header("Customer Segmentation")
+  st.subheader("Table of contents")
+  st.write("""
+  0. About
+  1. Business Request
+  2. Raw data
+  3. Data Transformation
+  4. Summary & Recommendations
+  """)
+  st.subheader("0. About")
+  st.write("""
+  The purpose of this customer segmentation project is to identify and group customers based on their transaction history in order to perform targeted marketing campaigns and determine the most valuable customers. This will be done by collecting data on customer transactions and ranking customers based on the recency, frequency, and monetary total of their transactions
+  """)
+  st.write("Customers will then be grouped into segments based on their ranking, and the characteristics and behaviors of each segment will be analyzed to identify good and bad segments. The customers who have made the most valuable purchases will be identified as the most valuable customers. This information can be used to tailor marketing efforts and prioritize resources towards the most valuable customers in order to increase customer retention and sales.")
+  st.subheader("1. Business Request")
+  show_project("note.png", "Request from management.")
+  st.subheader("2. Raw data")
+  show_project("Raw Data2.png", "Raw data in excel format.")
+  st.subheader("3. Data Transformation(Pivots)")
+  show_project("Pivot table.png", "Used the pivot table to filter out the unimportant columns.")
+  show_project("Updated pivit.png", "Applied vlookup function on the pivot table using lookup table to conditionally assign the customers a segment. ")
+  st.subheader("4. Summary & Recommendations(PowerPoint)")
+  st.write("""
+  - The report identified five major segments of customers based on recency, frequency, and revenue. The top customers have made an average of 8 purchases, spending an average of USD 7,200 and have made a purchase within the last 10 days on average.
+  """)
+  st.write("""
+  - At-risk customers, on the other hand, have only spent an average of USD 353 and have made only 3 purchases in the past 150 days. The report suggests creating a targeted campaign to re-engage at-risk customers with incentives and further analyzing the top/loyal customers to maximize earnings.
+  """)
+  st.write("""
+  - The breakdown of the customer segments is as follows: top customers (20.7%), at-risk/need attention (29.36%), immediate attention (19.78%), and loyal customers (30.16%).
+  """)
+  show_project("Customer Segmentation.png","")
 
-
+  
 
 
 
