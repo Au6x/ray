@@ -285,9 +285,10 @@ if selected == "Segmentation":
   show_project("note.png", "Request from management.")
   st.subheader("2. Raw data")
   show_project("Raw Data2.png", "Raw data in excel format.")
-  st.subheader("3. Data Transformation(Pivots)")
+  st.subheader("3. Data Transformation and Analysis")
   show_project("Pivot table.png", "Used the pivot table to filter out the unimportant columns.")
   show_project("Updated Pivit.png", "Applied vlookup function on the pivot table using lookup table to conditionally assign the customers a segment. ")
+  show_project("Customer Segments.png", "")
   st.write("""
   - Calculated the recency, monetary and frequency scores.
   - Used those scores to create a RMF Score.
