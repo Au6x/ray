@@ -13,7 +13,7 @@ st.title("Raymond Sekgobela")
 st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
 #st.write("---")
 #with st.sidebar:
-    selected = option_menu(
+selected = option_menu(
   menu_title=None,
             options=["Sales","Segmentation","Attrition"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
