@@ -6,7 +6,7 @@ def local_css(file_name):
 
 # Create a function that displays a project image and description
 def show_project(image, description):
-  st.image(image, width=350)
+  st.image(image, width=700)
   st.markdown(description)
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
