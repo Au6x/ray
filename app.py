@@ -10,7 +10,7 @@ def show_project(image, description):
   st.markdown(description)
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
-st.success("Tools Used : Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
+st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
 #st.write("---")
 #with st.sidebar:
 selected = option_menu(
@@ -30,7 +30,7 @@ selected = option_menu(
 if selected == "Sales":
     st.write("---")
     st.header("Sales Analysis")
-    st.success("Excel | SQL | Power BI | Power Query")
+    st.success("Tools Used : Excel | SQL | Power BI | Power Query")
     #show_project("data-analysis.png","")
     st.write("---")
     st.subheader("Table of contents")
