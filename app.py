@@ -30,6 +30,7 @@ selected = option_menu(
 if selected == "Sales":
     st.write("---")
     st.header("Sales Analysis")
+    st.success("Excel | SQL | Power BI | Power Query")
     #show_project("data-analysis.png","")
     st.write("---")
     st.subheader("Table of contents")
@@ -269,6 +270,7 @@ if selected == "Sales":
 
 if selected == "Segmentation":
   st.header("Customer Segmentation")
+  st.success("Excel | PowerPoint | Power Query")
   #show_project("customer-segment.png","")
   st.subheader("Table of contents")
   st.write("""
