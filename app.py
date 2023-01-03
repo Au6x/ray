@@ -51,7 +51,7 @@ if selected == "Sales":
     # Show the first project
     #st.header("Project 1")
     #show_project("project1.jpg", "This is the first project. It involves building a web application using Streamlit and Python.")
-st.write("---")
+    st.write("---")
     # Add a title to the app
     st.header("1. Business Request & User Stories")
     st.write("The business requested that an executive sales report be created for sales managers. To fulfill this request and ensure that the project met all necessary acceptance criteria, the following user stories were defined based on the business's request.")
