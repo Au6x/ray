@@ -34,7 +34,7 @@ if selected == "Sales":
     2. Raw Data.
     3. Data Cleaning & Transformation (SQL).
     4. Data Model.
-    5. Sales Management Dashboard(Live!).
+    5. Sales Management Dashboard(Power BI).
     """)
     st.write("---")
     st.subheader("0. Summary")
