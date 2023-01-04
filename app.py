@@ -249,7 +249,7 @@ if selected == "Sales":
       OrderDateKey ASC
     """)
     st.write("---")
-    st.header("4. Data Model")
+    st.header("4. Conceptual Data Model")
     st.write("""
     Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
 
