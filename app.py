@@ -11,7 +11,7 @@ def show_project(image, description):
 local_css("./style/style.css")
 st.title("Raymond Sekgobela")
 st.success("Data Analyst | Data Scientist | Business Intelligence Specialist | BI Consultant")
-#st.write("---")
+st.write("---")
 #with st.sidebar:
 selected = option_menu(
   menu_title=None,
