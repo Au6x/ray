@@ -17,7 +17,7 @@ st.write("---")
 #with st.sidebar:
 selected = option_menu(
   menu_title=None,
-            options=["Sales","Segments","Marketing"],
+            options=["  Sales  ","Segments","Marketing"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
@@ -29,7 +29,7 @@ selected = option_menu(
 # Add a title to the app
 
 
-if selected == "Sales":
+if selected == "  Sales  ":
     st.write("---")
     st.header("Sales Analysis")
     st.write("---")
