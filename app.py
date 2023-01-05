@@ -17,7 +17,7 @@ st.write("---")
 #with st.sidebar:
 selected = option_menu(
   menu_title=None,
-            options=["Sales","Segmentation","Marketing"],
+            options=["Sales","Segments","Marketing"],
             icons=["bar-chart-line","pie-chart","diagram-3"],
             menu_icon="person",
             default_index=0,
@@ -289,7 +289,7 @@ if selected == "Sales":
         <iframe src='https://app.powerbi.com/view?r=eyJrIjoiMmMxMjU1ZDAtMDBhYy00ZTgyLTg1MWQtNzNlMGFlMjlmODc3IiwidCI6IjA5NmViYzNjLThhYmQtNDBhNi1iNGZmLTdjYmY0YTk2MmM5NSJ9&pageName=ReportSection' width='700' height='400'></iframe>
     """, unsafe_allow_html=True)
 
-if selected == "Segmentation":
+if selected == "Segments":
   st.write("---")
   st.header("Customer Segmentation")
   st.write("---")
